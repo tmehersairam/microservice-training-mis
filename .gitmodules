@@ -4,3 +4,6 @@
 [submodule "sample-spring-external"]
 	path = sample-spring-external
 	url = https://github.com/tmehersairam/QR-Code-WebService.git
+[submodule "spring-boot-docker-demo"]
+	path = spring-boot-docker-demo
+	url = http://github.com/tmehersairam/springboot-docker-demo.git
