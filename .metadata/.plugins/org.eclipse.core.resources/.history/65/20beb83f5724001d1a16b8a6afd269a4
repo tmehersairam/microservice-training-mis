@@ -1,0 +1,18 @@
+package com.fis.service;
+
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Component;
+import org.springframework.web.client.RestTemplate;
+
+@Component
+public class UserServiceImpl implements ExternalUserService {
+
+    @Autowired
+    RestTemplate restTemplate;
+
+    public String getUserData() {
+        return "Hello from External user ";
+    }
+
+   
+}
