@@ -1,0 +1,6 @@
+[submodule "sample-project"]
+	path = sample-project
+	url = https://github.com/tmehersairam/sample-spring-mvc-with-thymeleaf.git
+[submodule "sample-spring-external"]
+	path = sample-spring-external
+	url = https://github.com/tmehersairam/QR-Code-WebService.git
